@@ -2,6 +2,8 @@
 
 ##### This repository will contain everyone's different joke websites from lesson 2. We will use it to learn Git and GitHub, and to work collaboratively!
 
+###### [Check out the live site](https://developer-delta.github.io/dev-delta-jokes/)
+
 ## Getting your site into this repo:
 * Use `git clone` to pull this repository down to your local machine.
 * `cd` into the newly cloned directory.
