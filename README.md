@@ -39,7 +39,7 @@
     ```
   </details>
 
-  > _You can name it whatever you like, but descriptive branch names are always good!
+  > _You can name it whatever you like, but descriptive branch names are always good!_
 
 >
 
@@ -129,11 +129,20 @@
 
 * Alright!! Now we just need to create a __pull request__ to say _"hey I want to __merge__ my code (on my branch) back into the big main repository (master branch) so I can see my changes on the internet!"_
   * This part we will do in GitHub itself. So [open up the `dev-delta-jokes` repository on GitHub](https://github.com/developer-delta/dev-delta-jokes).
-  * If you click on the button that says `master`, that's for "master" branch, you should see __your__ branch listed underneath there!
-    ![Screen Shot of the "master" branch button dropdown on GitHub](https://i.imgur.com/8XufIqg.png)
+  * If you click on the button that says `master`, that's for "master" branch, you should see __your__ branch listed underneath there! Go ahead and click on it.
+  
+    ![Screen Shot of the "master" branch button dropdown on GitHub](https://i.imgur.com/DLhvcdm.png)
 
+  * Now we are viewing our branch in the UI of GitHub. To the right a little bit is a `Pull request` button we can go ahead and click on now.
 
-### Takeaways from contributing to this repository:
-* You will be able to learn from others work, and get feedback on yours by using `pull requests`.
-* Your website will be `deployed` onto the web as a part of this repo.
-* Your first dive into `open source` software!
+    ![Screen Shot 2020-12-04 at 3.56.57 PM](https://i.imgur.com/ExmFATv.png)
+  
+  * Now you should see a page noting that there are differences between the `master` branch and your branch. This is expected because we made some changes to add our website and the link to it to this repository. So now go ahead and click `Create pull request`!
+
+  * What happens next is your Pull request will be reviewed by whoever is the maintainer of the repository, and they may make comments on your pull request, or approve and merge it in! When it is merged in, your changes will "go live" and you'll be able to see your work on the live website!
+
+---
+
+![Rick and Morty celebrating](https://media1.tenor.com/images/5bb201883ea639c256f5928b77466a9d/tenor.gif)
+
+Congrats on your first foray into `open source` software!
