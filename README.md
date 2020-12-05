@@ -100,6 +100,10 @@
     ```
 
     ```shell
+    git add index.html
+    ```
+
+    ```shell
     # -m stands for "message", so "commit these changes with this message"
     git commit -m "my first commit"
     ```
