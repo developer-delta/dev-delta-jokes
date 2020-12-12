@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Nerko+One&display=swap");
+
+body {
+  background-color: #8286be;
+}
+
+.tell-me {
+  color: blue;
+  height: auto;
+  margin: 0 auto;
+  padding-left: 30px;
+  display: grid;
+  grid-template-columns: 50% 40%;
+  grid-template-rows: 20% 20% 20%;
+  grid-template-areas:
+    "a b"
+    "c b"
+    "d b";
+}
+h1 {
+  font-family: "Nerko One", cursive;
+  font-size: 3.5rem;
+  grid-area: a;
+}
+h1:hover {
+  text-shadow: 2px 2px gray;
+}
+
+p {
+  font-size: 3rem;
+}
+.knock {
+  font-family: "Nerko One", cursive;
+  grid-area: c;
+}
+.tell-me:hover > .knock {
+  animation: slide 3.2s 4;
+}
+@keyframes slide {
+  0% {
+    margin-left: 0;
+  }
+  4% {
+    margin-left: 10px;
+  }
+  8% {
+    margin-left: 0;
+  }
+  12% {
+    margin-left: 10px;
+  }
+  16% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+
+.answer {
+  font-family: "Architects Daughter", cursive;
+  font-size: 2.3rem;
+  grid-area: d;
+}
+.a1,
+.a2 {
+  font-family: "Architects Daughter", cursive;
+  font-size: 2.3rem;
+}
+
+.a1,
+.a2 {
+  color: #8286be;
+}
+.tell-me:hover .a1 {
+  animation: illuminate 3.2s 4;
+  animation-delay: 0.7s;
+  animation-fill-mode: forwards;
+}
+.tell-me:hover .a2 {
+  animation: illuminate1 3.2s 4;
+  animation-delay: 1.4s;
+  animation-fill-mode: forwards;
+}
+@keyframes illuminate {
+  0% {
+    color: #8286be;
+  }
+
+  30% {
+    color: white;
+  }
+  70% {
+    color: #8286be;
+  }
+}
+@keyframes illuminate1 {
+  0% {
+    color: #8286be;
+  }
+
+  20% {
+    color: white;
+  }
+
+  34% {
+    color: #8286be;
+  }
+}
+.punchline {
+  height: auto;
+  width: 300px;
+}
+.name {
+  font-family: helvetica;
+  font-size: 2.3rem;
+  opacity: 0;
+}
+.tell-me:hover .name {
+  animation: appear1 1s infinite linear;
+  animation-delay: 12.8s;
+}
+#glass {
+  height: 300px;
+  opacity: 0;
+}
+.tell-me:hover #glass {
+  animation: appear 14s 1;
+  animation-fill-mode: forwards;
+}
+.tell-me:hover .punchline {
+  animation: shake 400ms infinite;
+  animation-delay: 12.8s;
+}
+@keyframes shake {
+  0% {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: 10px;
+  }
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes appear1 {
+  1% {
+    opacity: 1;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#dog {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  grid-area: a;
+  opacity: 0;
+  margin-left: 800px;
+}
+.tell-me:hover #dog {
+  animation: memeDog 2.5s 1 forwards;
+  animation-delay: 15s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 1);
+}
+
+@keyframes memeDog {
+  1% {
+    opacity: 1;
+    margin: 0 0 0 800px;
+    width: 300px;
+    height: 300px;
+  }
+  25% {
+    opacity: 1;
+    margin: -70px 0 0 -600px;
+    width: 300px;
+    height: 300px;
+  }
+  50% {
+    opacity: 1;
+    margin: 100px 0 0 -400px;
+    width: 300px;
+    height: 300px;
+  }
+  75% {
+    opacity: 1;
+    margin: 50px 0 0 -200px;
+    width: 300px;
+    height: 300px;
+  }
+  100% {
+    opacity: 1;
+    margin: -10px 0 0 -650px;
+    width: 1000px;
+    height: 1000px;
+  }
+}
