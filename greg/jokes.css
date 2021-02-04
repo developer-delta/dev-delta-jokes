@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+  }
+  
+  .setup {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #006D75;
+    display: flex;
+    justify-content: center;
+  }
+  
+  div#punchline {
+    border: 2px dashed white;
+    background-color: #EA7200;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 500px;
+  }
+  
+  p {
+    text-decoration: none;
+      color: transparent;
+  }
+  
+  p:hover {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .image {
+    -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  }
+  
+  .image:hover {
+    -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  }
+  
+  img {
+    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  a {
+    color: #006D75;
+    display: flex;
+    justify-content: center;
+  }
+  
+  a:visited {
+  color: #EA7200;
+  }
