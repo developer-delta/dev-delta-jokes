@@ -8,7 +8,11 @@ body {
     display: flex;
     justify-content: center;
   }
-  
+  div#punchline-container {
+      display: flex;
+      justify-content: center;
+  }
+
   div#punchline {
     border: 2px dashed white;
     background-color: #EA7200;
