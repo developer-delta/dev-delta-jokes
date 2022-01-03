@@ -17,7 +17,6 @@
       <div>
         <em>Who's there?</em>
       </div>
-      <small>Mikel WUZ HERE!!</small>
     
       <div id="Chinese">
       一个男人告诉他的医生，“医生，帮帮我。我沉迷于推特！医生回答说：“对不起，我没有跟着你
@@ -31,7 +30,7 @@
       function showOrHideDiv() {
             if (document.getElementById('Chinese')) {
 
-                if (document.getElementById('Chinese').style.display == 'none') {
+                if (document.getElementById('Chinese').style.display === 'none') {
                     document.getElementById('Chinese').style.display = 'block';
                     document.getElementById('English').style.display = 'none';
                 }
